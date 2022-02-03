@@ -55,6 +55,15 @@ a {
     margin-bottom: 40px;
 }
 
+.bottom {
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.bottom .right{
+    display: flex;
+}
+
 .buttons {
     background-color: #3882F6;
     color: white;
@@ -71,11 +80,25 @@ a {
     border: white;
 }
 
-.bottom {
-    display: flex;
-    padding-bottom: 75px;
+.info {
+    text-align: center; 
+
+    padding: 30px; 
 }
 
-.bottom .right{
+.info-header {
+    font-size: 36px; 
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.container {
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text {
+    max-width: 150px;
 }
