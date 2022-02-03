@@ -43,4 +43,18 @@ a {
     align-items: center;
 }
 
+.buttons {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
 
+.header button {
+    border: #1F2937;
+    font-weight: bold;
+}
+
+.call-to-action button {
+    border: white;
+}
