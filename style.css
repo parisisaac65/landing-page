@@ -1,12 +1,22 @@
-.body {
+* {
+    box-sizing:border-box;
+}
+
+body {
     height: 100vh;
-
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .header, .footer{
     background-color: #1F2937;
+}
+
+.header {
+    padding: 0px 100px;
+
+
+
 }
 
 .logo {
@@ -39,8 +49,10 @@ a {
 
 .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 40px;
 }
 
 .buttons {
@@ -57,4 +69,13 @@ a {
 
 .call-to-action button {
     border: white;
+}
+
+.bottom {
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.bottom .right{
+    display: flex;
 }
