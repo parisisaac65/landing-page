@@ -67,17 +67,15 @@ a {
 .buttons {
     background-color: #3882F6;
     color: white;
+    font-weight: bold;
     padding: 8px 20px;
     border-radius: 8px;
+
 }
 
 .header button {
     border: #1F2937;
-    font-weight: bold;
-}
-
-.call-to-action button {
-    border: white;
+  
 }
 
 .info {
@@ -120,4 +118,30 @@ a {
     font-weight: bold;
     margin: 0px;
     text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: 75px 100px;
+}
+
+.call-to-action button{
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.call-to-action h4 {
+    margin-bottom: 0px;
+}
+
+.call-to-action p {
+    margin-top: 8px;
 }
