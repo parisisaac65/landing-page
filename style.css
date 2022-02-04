@@ -60,7 +60,10 @@ a {
 
 .bottom .right{
     display: flex;
+    margin-left: 75px;
 }
+
+
 
 .buttons {
     background-color: #3882F6;
