@@ -45,6 +45,7 @@ a {
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
+    opacity: 85%;
 }
 
 .top {
@@ -66,14 +67,14 @@ a {
 }
 
 
-
 .buttons {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
     padding: 8px 20px;
     border-radius: 8px;
-
+    width: 100px;
+    height: auto;
 }
 
 .header button {
@@ -83,8 +84,8 @@ a {
 
 .info {
     text-align: center; 
-
     padding: 30px; 
+    margin: 10px auto 50px;
 }
 
 .info-header {
@@ -93,10 +94,12 @@ a {
     color: #1F2937;
     margin-bottom: 30px;
 }
+
 .header img{
     max-width: 500px;
     max-height: 250px;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -107,13 +110,12 @@ a {
     border-radius: 10px; 
     width: 85%;
     height: 100%; 
-    max-width: 250px;
-    max-height: 300px;
+    max-width: 200px;
 }
 
-/* .text {
-    /* max-width: 150px; */
-
+.text {
+    margin: 10px auto;
+}
 
 .quote {
     background-color: #E5E7EB;
@@ -143,6 +145,7 @@ a {
     align-items: center;
     border-radius: 10px;
     margin: 75px 100px;
+    gap: 50px;
 }
 
 .call-to-action button{
@@ -166,6 +169,4 @@ a {
     color: white;
     font-weight: lighter;
     padding: 10px;
-    
-
 }
