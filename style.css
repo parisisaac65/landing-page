@@ -9,7 +9,6 @@ body {
     
 }
 
-
 .header, .footer{
     background-color: #1F2937;
 }
@@ -53,7 +52,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin-bottom: 40px;
 }
 
@@ -67,7 +65,6 @@ a {
     margin-left: 75px;
 }
 
-
 .buttons {
     background-color: #3882F6;
     color: white;
@@ -80,7 +77,6 @@ a {
 
 .header button {
     border: #1F2937;
-  
 }
 
 .info {
@@ -123,13 +119,13 @@ a {
     background-color: #E5E7EB;
     padding: 50px 100px; 
     margin-top: 20px;
+    color:#1F2937;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color:#1F2937;
 }
 
 .quote-author {
